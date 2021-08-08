@@ -76,7 +76,7 @@ router.put('/restaurants/:id', (req,res)=>{
 
 		,(err,restaurants)=>{
 		if (err) res.json({error:"message "+err})
-			res.json({message:'Restaurant succesfully updated!', data:restaurants})
+			res.json({message:'Restaurant succesfully updated, yeah!', data:restaurants})
 	})
 })
 
